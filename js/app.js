@@ -29,7 +29,7 @@ $(document).ready(()=>{
     },
     {
        index: 4,
-        question:"Which of the following are Afrocenchix's products?",
+        question:"Which of the following are not Afrocenchix's products?",
         options:["Swirl", "Kit Kat", "Zoro Mask"],
         answer:["Kit Kat", "Zoro Mask"]  
     }
