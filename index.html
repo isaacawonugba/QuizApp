@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-dark text-white pt-4 pb-4">
+        <h1 class="text-center mt-4 pt-4">Afrocenchix Quiz App</h1>
+    </header>
+    <section class="container p-3 mb-5 mt-3 bg-white rounded introduction">
+        <p class="h3 text-center pb-3">Welcome to the Quiz App</p>
+        <p class="h6 pb-4 text-justify"> This is a quiz game to test your knowledge about Afrocenchix. Click the "Start Quiz" button below to commence the quiz. Your score will be shown to you at the end.</p>
+        <p class="text-center"> <button class="btn btn-default border rounded btnStart">Start Quiz</button></p>
+    </section>
+    <section class="container p-3 mb-5 mt-3 bg-white rounded quiz-container d-none">
+        <div class="instruction text-center py-2 pb-3 mb-4">Instruction: Select the correct answers from the available options</div>
+        <div class="question py-2 h5 ml-md-3 ml-sm-3 pl-md-5 pt-sm-0"></div>
+        <div class="options ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3"></div>
+        <div class="d-flex align-items-center pt-3 mt-4">
+            <div class="ml-2"> <button class="btn btn-default border rounded btnPrevious">Previous</button> </div>
+            <div class="ml-auto mr-2"> <button class="btn btn-default border rounded btnNext">Next</button> </div>
+        </div>
+    </section> 
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
